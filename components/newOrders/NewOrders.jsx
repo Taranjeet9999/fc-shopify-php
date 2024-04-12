@@ -563,7 +563,7 @@ export function NewOrders(props) {
                 setErrorMsg("Please select at least 1 order"))
           }
         >
-          Hold Selected Orders
+          Hold Selected Ordersssss
         </button>
       </div>
       <div className="pickup-locations-table">
