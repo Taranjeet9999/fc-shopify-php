@@ -118,7 +118,7 @@ export function NewOrders(props) {
 
   const getAllOrders = () => {
     return new Promise((resolve, reject) => {
-      fetch(`/api/orders`, {
+      fetch(`https://fc-app.vuwork.com/api/orders`, {
         method: "GET",
         credentials: "include",
         headers: { Accept: "application/json" },
@@ -144,7 +144,7 @@ export function NewOrders(props) {
 
   const getOrderMeta = () => {
     return new Promise((resolve, reject) => {
-      fetch(`/api/order-metafields`, {
+      fetch(`https://fc-app.vuwork.com/api/order-metafields`, {
         method: "GET",
         credentials: "include",
         headers: { Accept: "application/json" },
