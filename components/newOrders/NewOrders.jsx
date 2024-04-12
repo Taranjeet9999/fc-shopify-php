@@ -118,7 +118,7 @@ export function NewOrders(props) {
 
   const getAllOrders = () => {
     return new Promise((resolve, reject) => {
-      fetch(`https://fc-app.vuwork.com/api/orders`, {
+      fetch(`https://112f-171-78-223-229.ngrok-free.app/api/orders`, {
         method: "GET",
         credentials: "include",
         headers: { Accept: "application/json" },
@@ -144,7 +144,7 @@ export function NewOrders(props) {
 
   const getOrderMeta = () => {
     return new Promise((resolve, reject) => {
-      fetch(`https://fc-app.vuwork.com/api/order-metafields`, {
+      fetch(`https://112f-171-78-223-229.ngrok-free.app/api/order-metafields`, {
         method: "GET",
         credentials: "include",
         headers: { Accept: "application/json" },
@@ -517,9 +517,7 @@ export function NewOrders(props) {
 
                 // Return true only if both checks pass
                 return orderDateCheck && orderIdCheck;
-              });
-
-              // Set the filtered orders
+              }); 
               setOrders(filteredOrders);
             }}
           >
