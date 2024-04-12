@@ -471,7 +471,7 @@ export function NewOrders(props) {
         </div>
         <div className="input-container">
           <div className="input-lebel">
-            <span> Order Shipping Type&nbsp;</span>
+            <span> Order Shipping Typesss&nbsp;</span>
           </div>
           <div className="input-field1">
             <select className="input-field-text" type="text">
